@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>zuowenjun</Authors>
+    <Company>zuowenjun.cn</Company>
+    <Description>基于NPOI扩展封装的简易操作工具类库（简单灵活易用，支持导出、导入、上传等常见操作）</Description>
+    <PackageProjectUrl>https://github.com/zuowj/ExcelEasyUtil</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="NPOI" Version="2.4.1" />
+  </ItemGroup>
+
+</Project>
